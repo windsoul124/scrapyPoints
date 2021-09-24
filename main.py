@@ -1,16 +1,3 @@
-# def create_generator():
-#     mylist = range(3)
-#     for i in mylist:
-#         print(i)
-#         yield i*i
-#
-# mygenerator = create_generator() # create a generator
-# print(mygenerator) # mygenerator is an object!
-#
-# for i in mygenerator:
-#    print(i)
+import pandas as pd
 
-for i in range(5):
-    print(i)
-
-
+str = 'Thông tin ứng dụng ,Hạn mức: 1,000,000 đồng -10,000,000 đồng ,Kỳ hạn: ít nhất 91 ngày, tối đa 180 ngày,Lãi suất: Lãi suất năm (APR) tối thiểu 15%, tối đa không quá 18%.,Phí dịch vụ: Không (0),Mục tiêu: Chúng tôi chỉ cung cấp dịch vụ cho vay đối với công dân Việt Nam trên 18 tuổi,Ví dụ: ,Tổng lãi suất hàng năm là 15%, vay 1.000.000 đồng, thời gian vay là 91 ngày và lãi phải trả là 37.397 đồng (1.000.000 * 15% / 365 * 91), và tổng cộng cần phải thanh toán là 1.03.397 đồng.,Nếu bạn cần tiền gấp, bạn có thể sử dụng ứng dụng cho vay trực tuyến này, không cần vay tiền với người thân và bạn bè, có thể tải ứng dụng mọi lúc, mọi nơi, đăng ký ngay! ,Thẩm định tín dụng và giải ngân có thể được hoàn thành nhanh nhất trong 30 phút ! ,Nếu bạn thanh toán đúng hạn và đăng ký vay  nhiều lần, lãi suất sẽ ngày càng được ưu đãi, và hạn mức vay sẽ ngày càng cao hơn!,Tại sao chọn UniVay,1、Trải nghiệm dịch vụ tốt,2、Lãi suất thấp, giải ngân nhanh,3、Tín dụng tốt có thể nâng hạn mức vay,4、Hỗ trợ nhiều kênh thanh toán,Các bước đăng ký,1、        Tải app để đăng ký và điền thông tin   ,2、        Thẩm định thông qua trong 24h,3、        Thẩm định xong, 30 phút sau được giải ngân,Phương thức thanh toán,1、        Chuyển khoản ngân hàng online.  ,2、        Trả nợ qua các kênh hợp tác địa phương tại Việt Nam,Bảo mật sự riêng tư cho khách hàng:,UniVay cung cấp dịch vụ cho bạn sẽ tập trung vào việc bảo mật sự riêng tư và không chia sẻ hay tiết lộ thông tin cá nhân của bạn với bất cứ ai hay tổ chức cá nhân nào .,Liên lạc với chúng tôi : ,Điện thoại: 84.89652965,Email: Congtychovayonline@gmail.com,Địa chỉ: HCM, Quận 11, Lotte mark ,Gian hàng 11.'
